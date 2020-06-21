@@ -5,7 +5,7 @@ Floyd–Steinberg dithering is an image dithering algorithm first published in 1
 Floyd-Steinberg dithering is a truly magical technique. It is supposed to fool your eye and brain to make you think that you see more than there really is to be seen.
 
 
-<a href="GrayFilter/minion.jpg"><img src="GrayFilter/ba.jpg" title=""/></a>
+<a href="image processing/minion.jpg"><img src="image processing/minion.jpg" title=""/></a>
 
 
 In general, dither is method to reduce color space of an image by adding an artificial noise. The key idea is that the amount of light in an area should remain about the same.
@@ -15,7 +15,7 @@ The algorithm achieves dithering using error diffusion, meaning it pushes (adds)
 Floyd-Steinberg uses non-uniform distribution of quantization error to surrounding pixels. It means that the center pixel is rounded to 0 or 1. The residual error is then added to surrounding pixels.
 
 
-<a href="https://miro.medium.com/max/962/1*jnMevWEIvo-iy6KIyx56gw.png"><img src="GrayFilter/ba.jpg" title=""/></a>
+<img src="https://miro.medium.com/max/962/1*jnMevWEIvo-iy6KIyx56gw.png" title=""/></a>
 
 The pixel indicates the pixel currently being scanned, and the blank pixels are the previously-scanned pixels. The algorithm scans the image from left to right, top to bottom, quantizing pixel values one by one. Each time the quantization error is transferred to the neighboring pixels, while not affecting the pixels that already have been quantized. Hence, if a number of pixels have been rounded downwards, it becomes more likely that the next pixel is rounded upwards, such that on average, the quantization error is close to zero.
 
