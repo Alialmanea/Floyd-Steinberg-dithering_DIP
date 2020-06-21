@@ -5,7 +5,7 @@ Floyd–Steinberg dithering is an image dithering algorithm first published in 1
 Floyd-Steinberg dithering is a truly magical technique. It is supposed to fool your eye and brain to make you think that you see more than there really is to be seen.
 
 
-<a href="image processing/minion.jpg"><img src="Floyd-Steinberg-dithering_DIP/minion.jpg" title=""/></a>
+<a href="image processing/minion.jpg"><img src="https://github.com/Alialmanea/Floyd-Steinberg-dithering_DIP.git/minion.jpg" title=""/></a>
 
 
 In general, dither is method to reduce color space of an image by adding an artificial noise. The key idea is that the amount of light in an area should remain about the same.
